@@ -59,7 +59,7 @@ document.getElementById('closePopup').addEventListener('click', function() {
 document.getElementById('simButton').addEventListener('click', function() {
     alert('Eu sabia que você diria sim! 💍 Te amo!');
     // Redireciona para outra página (substitua 'outra-pagina.html' pelo caminho desejado)
-    window.location.href = 'SIM.html'; // Substitua pela URL da página de destino
+    window.location.href = 'sim.html'; // Substitua pela URL da página de destino
     document.getElementById('popup').style.display = 'none';
 });
 
