@@ -58,9 +58,11 @@ document.getElementById('closePopup').addEventListener('click', function() {
 // Evento para o botão "Sim" dentro do popup
 document.getElementById('simButton').addEventListener('click', function() {
     alert('Eu sabia que você diria sim! 💍 Te amo!');
-    // Redireciona para outra página (substitua 'outra-pagina.html' pelo caminho desejado)
-    window.location.href = 'sim.html'; // Substitua pela URL da página de destino
     document.getElementById('popup').style.display = 'none';
+    // Redireciona para outra página (substitua 'outra-pagina.html' pelo caminho desejado)
+    setTimeout(() => {
+        window.location.href = 'sim.html';
+    }, 100);
 });
 
 // Evento para o botão "Não" dentro do popup
